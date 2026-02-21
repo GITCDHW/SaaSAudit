@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 SaaS & AI Cost Auditor | Free Optimization Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+    <nav class="bg-white border-b border-slate-200 px-6 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-indigo-600">SaaS<span class="text-slate-700">Audit2026</span></h1>
+        <div class="hidden md:flex space-x-6 text-sm font-medium text-slate-600">
+            <span class="text-emerald-600 flex items-center gap-1">
+                <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span> 
+                Live 2026 Benchmarks
+            </span>
+        </div>
+    </nav>
+
+    <div class="max-w-5xl mx-auto mt-4 px-4">
+        <div class="w-full h-24 bg-slate-200 rounded-xl flex items-center justify-center text-slate-400 text-xs tracking-widest border border-dashed border-slate-300">
+            ADVERTISEMENT (728 x 90)
+        </div>
+    </div>
+
+    <main class="max-w-5xl mx-auto py-8 px-4">
+        <div class="grid lg:grid-cols-3 gap-8">
+            
+            <div class="lg:col-span-1 space-y-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <h3 class="font-bold text-lg mb-4">Monthly Spend</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <label class="text-xs font-bold text-slate-500 uppercase">AI Subscriptions</label>
+                            <input type="number" id="aiSpend" value="200" oninput="calculate()" class="w-full mt-1 px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="text-xs font-bold text-slate-500 uppercase">Cloud & Hosting</label>
+                            <input type="number" id="cloudSpend" value="150" oninput="calculate()" class="w-full mt-1 px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="text-xs font-bold text-slate-500 uppercase">MarTech Tools</label>
+                            <input type="number" id="marTechSpend" value="300" oninput="calculate()" class="w-full mt-1 px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none">
+                        </div>
+                        <div class="pt-2">
+                            <label class="flex items-center cursor-pointer group">
+                                <input type="checkbox" id="inflationToggle" checked onchange="calculate()" class="w-4 h-4 text-indigo-600 rounded">
+                                <span class="ml-2 text-sm text-slate-600 group-hover:text-indigo-600 transition-colors">Apply 2026 Inflation (8.5%)</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full h-[300px] bg-slate-100 rounded-2xl border border-slate-200 flex items-center justify-center text-slate-400 text-xs vertical-writing text-center p-4">
+                    SIDEBAR AD (300 x 250)
+                </div>
+            </div>
+
+            <div class="lg:col-span-2 space-y-6">
+                
+                <div class="bg-slate-900 rounded-3xl p-8 text-white shadow-2xl relative overflow-hidden">
+                    <div class="relative z-10">
+                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                            <div>
+                                <span class="text-indigo-400 font-bold uppercase tracking-widest text-xs">Annual Savings Potential</span>
+                                <div class="text-7xl font-black mt-2 tracking-tight text-emerald-400" id="totalSavings">$0</div>
+                            </div>
+                            <div class="text-left md:text-right">
+                                <span class="text-slate-400 text-sm">Stack Efficiency</span>
+                                <div id="efficiencyScore" class="text-3xl font-mono text-white">72%</div>
+                                <div class="w-32 h-2 bg-slate-800 rounded-full mt-2 overflow-hidden">
+                                    <div id="efficiencyBar" class="bg-emerald-400 h-full transition-all duration-700" style="width: 72%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 pt-6 border-t border-slate-800 text-slate-300 italic text-sm" id="breakdownText">
+                            Analyzing your data against 2026 benchmarks...
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200">
+                        <h4 class="font-bold text-indigo-600 mb-2">🚀 2026 Fast Fixes</h4>
+                        <ul class="text-sm text-slate-600 space-y-2">
+                            <li>• Audit "Shadow AI" user seats</li>
+                            <li>• Cancel legacy v1.0 LLM subs</li>
+                            <li>• Consolidate to multi-modal APIs</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200">
+                        <h4 class="font-bold text-emerald-600 mb-2">💡 Pro Tip</h4>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Switching from monthly to annual billing in 2026 saves an average of 18% on top of the optimizations calculated above.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w-full h-32 bg-indigo-50 rounded-2xl flex items-center justify-center text-indigo-300 text-xs tracking-widest border border-indigo-100">
+                    IN-FEED NATIVE AD
+                </div>
+
+            </div>
+        </div>
+    </main>
+<footer class="bg-white border-t border-slate-200 pt-16 pb-8 mt-20">
+    <div class="max-w-5xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+            
+            <div class="col-span-1">
+                <h3 class="text-xl font-bold text-indigo-600 mb-4">SaaS<span class="text-slate-700">Audit2026</span></h3>
+                <p class="text-sm text-slate-500 leading-relaxed">
+                    The web's leading free resource for 2026 SaaS cost optimization and AI stack auditing. Helping businesses reclaim their margins in an era of subscription sprawl.
+                </p>
+            </div>
+
+            <div class="col-span-1">
+                <h4 class="text-sm font-bold text-slate-900 uppercase tracking-widest mb-4">Resources</h4>
+                <ul class="space-y-2 text-sm text-slate-600">
+                    <li><a href="/" class="hover:text-indigo-600 transition-colors">Savings Calculator</a></li>
+                    <li><a href="blog.html" class="hover:text-indigo-600 transition-colors">2026 Optimization Blog</a></li>
+                    <li><a href="about.html" class="hover:text-indigo-600 transition-colors">Our Methodology</a></li>
+                </ul>
+            </div>
+
+            <div class="col-span-1">
+                <h4 class="text-sm font-bold text-slate-900 uppercase tracking-widest mb-4">Trust & Legal</h4>
+                <ul class="space-y-2 text-sm text-slate-600">
+                    <li><a href="privacy.html" class="hover:text-indigo-600 transition-colors">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="hover:text-indigo-600 transition-colors">Terms of Service</a></li>
+                    <li><a href="mailto:contact@saasaudit2026.com" class="hover:text-indigo-600 transition-colors">Support Email</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="pt-8 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-xs text-slate-400">
+                &copy; 2026 SaaS Audit Tool. All rights reserved. Calculations are estimates based on 2026 industry benchmarks.
+            </p>
+            <div class="flex gap-4">
+                <div class="w-5 h-5 bg-slate-200 rounded-full"></div>
+                <div class="w-5 h-5 bg-slate-200 rounded-full"></div>
+                <div class="w-5 h-5 bg-slate-200 rounded-full"></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script>
+        function calculate() {
+            const ai = parseFloat(document.getElementById('aiSpend').value) || 0;
+            const cloud = parseFloat(document.getElementById('cloudSpend').value) || 0;
+            const martech = parseFloat(document.getElementById('marTechSpend').value) || 0;
+            const isInflation = document.getElementById('inflationToggle').checked;
+
+            const aiPot = ai * 0.35;
+            const cloudPot = cloud * 0.15;
+            const martechPot = martech * 0.25;
+
+            let monthlyWaste = aiPot + cloudPot + martechPot;
+            let totalMonthly = ai + cloud + martech;
+
+            const inflationRate = 0.085;
+            if (isInflation) {
+                monthlyWaste = monthlyWaste * (1 + inflationRate);
+                totalMonthly = totalMonthly * (1 + inflationRate);
+            }
+
+            const annualSavings = monthlyWaste * 12;
+            const efficiency = totalMonthly > 0 ? Math.round(((totalMonthly - monthlyWaste) / totalMonthly) * 100) : 100;
+
+            document.getElementById('totalSavings').innerText = '$' + annualSavings.toLocaleString(undefined, {maximumFractionDigits: 0});
+            document.getElementById('efficiencyScore').innerText = efficiency + '%';
+            document.getElementById('efficiencyBar').style.width = efficiency + '%';
+            
+            const status = isInflation ? "including the 2026 inflation hike" : "excluding projected price hikes";
+            document.getElementById('breakdownText').innerHTML = `Your stack is leaking roughly <strong>$${monthlyWaste.toFixed(0)} every month</strong> ${status}. Most of this is redundant AI seat licenses.`;
+        }
+        calculate();
+    </script>
+    
+</body>
+</html>
